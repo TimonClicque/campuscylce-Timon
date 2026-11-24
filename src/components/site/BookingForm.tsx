@@ -155,7 +155,7 @@ export function BookingForm(props: BookingFormProps) {
 
         <div className="grid gap-2">
           <Label htmlFor="name">
-            Your name <span className="font-normal text-ink-soft">(required)</span>
+            Your name and surname <span className="font-normal text-ink-soft">(required)</span>
           </Label>
           {/* scroll-mt-16: a link from the error box scrolls the field into view with its label above. */}
           <Input id="name" name="name" autoComplete="name" required defaultValue={values.name} className="scroll-mt-16" {...problem('name')} />
